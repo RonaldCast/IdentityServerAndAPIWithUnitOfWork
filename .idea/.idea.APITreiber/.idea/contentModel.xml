@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="APITreiber" t="IncludeRecursive">
+        <e p="APITreiber.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="PersonController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Mapping" t="Include">
+          <e p="MappingProfile.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APITreiber.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Validators" t="Include">
+          <e p="PersonValidators" t="Include">
+            <e p="PersonValid.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="APITreiber.DomainModel" t="IncludeRecursive">
+        <e p="APITreiber.DomainModel.csproj" t="IncludeRecursive" />
+        <e p="AppDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20210320045957_InitialMigration.cs" t="Include" />
+          <e p="20210320045957_InitialMigration.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Entity.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APITreiber.DomainModel.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="APITreiber.DTOs" t="IncludeRecursive">
+        <e p="APITreiber.DTOs.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APITreiber.DTOs.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PersonDTOs" t="Include">
+          <e p="PersonDTO.cs" t="Include" />
+        </e>
+        <e p="ResponseMessage.cs" t="Include" />
+      </e>
+      <e p="APITreiber.Persistence" t="IncludeRecursive">
+        <e p="APITreiber.Persistence.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APITreiber.Persistence.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repository" t="Include">
+          <e p="Contracts" t="Include">
+            <e p="IPersonRepository.cs" t="Include" />
+            <e p="IRepository.cs" t="Include" />
+          </e>
+          <e p="PersonRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+        </e>
+        <e p="UnitOfWork" t="Include">
+          <e p="Contracts" t="Include">
+            <e p="IUnitOfWork.cs" t="Include" />
+          </e>
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+      </e>
+      <e p="APITreiber.Services" t="IncludeRecursive">
+        <e p="APITreiber.Services.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APITreiber.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PersonService" t="Include">
+          <e p="IPersonService.cs" t="Include" />
+          <e p="PersonService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="APITreiber.sln" t="IncludeFlat" />
+      <e p="identity-server" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="cert_rsa512.pfx" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="IdentityController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
+          <e p="Config.cs" t="Include" />
+          <e p="DatabaseInitializer.cs" t="Include" />
+          <e p="DomainModel" t="Include">
+            <e p="Role.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="App" t="Include">
+              <e p="20210316021247_InitMigration.cs" t="Include" />
+              <e p="20210316021247_InitMigration.Designer.cs" t="Include" />
+              <e p="AppDbContextModelSnapshot.cs" t="Include" />
+            </e>
+            <e p="IdentityServer" t="Include">
+              <e p="ConfigurationDb" t="Include">
+                <e p="20210316015655_InitialIdentityServerConfigurationDbMigration.cs" t="Include" />
+                <e p="20210316015655_InitialIdentityServerConfigurationDbMigration.Designer.cs" t="Include" />
+                <e p="ConfigurationDbContextModelSnapshot.cs" t="Include" />
+              </e>
+              <e p="PersistedGrantDb" t="Include">
+                <e p="20210316015706_InitialIdentityServerPersistedGrantDbMigration.cs" t="Include" />
+                <e p="20210316015706_InitialIdentityServerPersistedGrantDbMigration.Designer.cs" t="Include" />
+                <e p="PersistedGrantDbContextModelSnapshot.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SettingIdentity" t="Include">
+            <e p="ProfileService.cs" t="Include" />
+            <e p="ResourceOwnerPasswordValidator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DTO" t="Include">
+          <e p="AssignRole.cs" t="Include" />
+          <e p="CreateRole.cs" t="Include" />
+          <e p="Proof.cs" t="Include" />
+          <e p="UserSignUp.cs" t="Include" />
+        </e>
+        <e p="identity-server.csproj" t="IncludeRecursive" />
+        <e p="Mapping" t="Include">
+          <e p="MappingProfile.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="identity-server.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tempkey.jwk" t="Include" />
+        <e p="Validator" t="Include">
+          <e p="ProofValidate.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Utilities" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LogCustomeMessage.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Utilities.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Utilities.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_APITreiber.899819546.00" t="ExcludeRecursive" />
+  </component>
+</project>

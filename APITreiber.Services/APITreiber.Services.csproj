@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\APITreiber.DomainModel\APITreiber.DomainModel.csproj" />
+      <ProjectReference Include="..\APITreiber.DTOs\APITreiber.DTOs.csproj" />
+      <ProjectReference Include="..\APITreiber.Persistence\APITreiber.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
