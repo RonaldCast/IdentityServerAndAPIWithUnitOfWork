@@ -9,6 +9,7 @@
       <ProjectReference Include="..\APITreiber.DomainModel\APITreiber.DomainModel.csproj" />
       <ProjectReference Include="..\APITreiber.DTOs\APITreiber.DTOs.csproj" />
       <ProjectReference Include="..\APITreiber.Persistence\APITreiber.Persistence.csproj" />
+      <ProjectReference Include="..\Utilities\Utilities.csproj" />
     </ItemGroup>
 
 </Project>

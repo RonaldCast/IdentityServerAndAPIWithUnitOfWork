@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace APITreiber
 {
@@ -13,6 +14,15 @@ namespace APITreiber
     {
         public static void Main(string[] args)
         {
+            IConfigurationRoot configuration = new
+                ConfigurationBuilder().AddJsonFile("appsettings.json",
+                optional: false, reloadOnChange: true).Build();
+            
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(configuration)
+                .CreateLogger();
+
+            
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -22,6 +32,6 @@ namespace APITreiber
                 {
                     webBuilder.UseStartup<Startup>();
                     webBuilder.UseUrls("https://localhost:5001");
-                });
+                }).UseSerilog();
     }
 }

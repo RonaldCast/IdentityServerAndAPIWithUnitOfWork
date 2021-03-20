@@ -1,8 +1,8 @@
 namespace Utilities
 {
-    public static class LogCustomeMessage
+    public static class LogCustomMessage
     {
-        public static string ReadMessage(string project, string currentClass, string method, string description)
+        public static string WriteMessage(string project, string currentClass, string method, string description)
         {
             var message = $"Project:{project}, Class:{currentClass}, " +
                           $"Description:{description},  Method:{method}";

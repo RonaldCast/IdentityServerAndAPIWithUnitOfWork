@@ -1,0 +1,27 @@
+03/20/2021 01:41:14 -04:00 User profile is available. Using '"/Users/ronaldcastillo/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+03/20/2021 01:41:14 -04:00 Now listening on: "https://localhost:5001"
+03/20/2021 01:41:14 -04:00 Application started. Press Ctrl+C to shut down.
+03/20/2021 01:41:14 -04:00 Hosting environment: "Development"
+03/20/2021 01:41:14 -04:00 Content root path: "/Users/ronaldcastillo/Desktop/Doc/Laboratorio Referencia/Application transporte/Treiber/BackEnd-Treiber/APITreiber"
+03/20/2021 01:41:15 -04:00 Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+03/20/2021 01:41:15 -04:00 Request finished in 70.0978ms 200 text/html;charset=utf-8
+03/20/2021 01:41:15 -04:00 Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+03/20/2021 01:41:15 -04:00 Request finished in 96.0592ms 200 application/json;charset=utf-8
+03/20/2021 01:41:18 -04:00 Request starting HTTP/1.1 POST https://localhost:5001/api/v1/Person application/json 69
+03/20/2021 01:41:18 -04:00 Successfully validated the token.
+03/20/2021 01:41:18 -04:00 Authorization was successful.
+03/20/2021 01:41:18 -04:00 Executing endpoint '"APITreiber.Controllers.PersonController.Post (APITreiber)"'
+03/20/2021 01:41:18 -04:00 Route matched with "{action = \"Post\", controller = \"Person\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APITreiber.DTOs.ResponseMessage`1[System.Boolean]]] Post(APITreiber.DTOs.PersonDTOs.PersonDTO)" on controller "APITreiber.Controllers.PersonController" ("APITreiber").
+03/20/2021 01:41:19 -04:00 Entity Framework Core "5.0.4" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=APITreiber.DomainModel "
+03/20/2021 01:41:19 -04:00 Executed DbCommand ("34"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Persons] ([BirthDate], [Created], [IdentityCard], [Modified])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Persons]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+03/20/2021 01:41:19 -04:00 Project:Services, Class:PersonService, Description:Se ha registrado correctamente la persona,  Method:InsertPersonAsync
+03/20/2021 01:41:19 -04:00 Executing ObjectResult, writing value of type '"APITreiber.DTOs.ResponseMessage`1[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/20/2021 01:41:19 -04:00 Executed action "APITreiber.Controllers.PersonController.Post (APITreiber)" in 1115.4492ms
+03/20/2021 01:41:19 -04:00 Executed endpoint '"APITreiber.Controllers.PersonController.Post (APITreiber)"'
+03/20/2021 01:41:19 -04:00 Request finished in 1632.1715ms 200 application/json; charset=utf-8
